@@ -3,7 +3,7 @@ output "cluster_id" {
 }
 
 output "node_group_id" {
-  value = aws_eks_node_group.hdrr.id
+  value = aws_eks_node_group.hdr.id
 }
 
 output "vpc_id" {
