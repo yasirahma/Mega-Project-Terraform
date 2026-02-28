@@ -106,7 +106,7 @@ resource "aws_eks_addon" "ebs_csi_driver" {
 }
 
 
-resource "aws_eks_node_group" "project" {
+resource "aws_eks_node_group" "hdr" {
   cluster_name    = aws_eks_cluster.hdr.name
   node_group_name = "hdr-node-group"
   node_role_arn   = aws_iam_role.hdr_node_group_role.arn
