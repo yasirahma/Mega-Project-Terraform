@@ -1,0 +1,2 @@
+aws eks update-kubeconfig --name hdr-cluster --region ap-south-1
+kubectl get pods -n kube-system | grep ebs
