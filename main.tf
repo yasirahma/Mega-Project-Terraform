@@ -105,7 +105,7 @@ resource "aws_eks_addon" "ebs_csi_driver" {
   resolve_conflicts_on_update = "OVERWRITE"
 
  depends_on = [
-    aws_eks_node_group.project
+    aws_eks_node_group.hdr
   ]
 }
 
