@@ -1,4 +1,5 @@
 variable "ssh_key_name" {
-  description = "EC2 Key Pair name for SSH access to EKS nodes"
-  type        = deploy
+  description = "The name of the SSH key pair to use for instances"
+  type        = string
+  default     = "deploy"
 }
